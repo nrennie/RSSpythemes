@@ -18,9 +18,9 @@ signif_green = '#3fa535'
 
 # Palette colours
 RSS_PALETTES = dict(
-    signif_seq=dict(colors=('#163B13', '#20551B', '#2A7024', '#348A2C', '#3FA535', '#5DB355', '#7CC175', '#9BD095', '#B9DEB6')),
-    signif_div=dict(colors=('#E41B12', '#EB5751', '#F29490', '#F9D1CF', '#FFFFFF', '#CCEBF3', '#88D0E3', '#43B6D3', '#009CC4')),
-    signif_qual=dict(colors=('#3fa535', '#f4c100', '#009cc4', '#f07d00'))
+    signif_seq=dict(colors=('#163B13', '#20551B', '#2A7024', '#348A2C', '#3FA535', '#5DB355', '#7CC175', '#9BD095', '#B9DEB6'), order=(1, 2, 3, 4, 5, 6, 7, 8, 9)),
+    signif_div=dict(colors=('#E41B12', '#EB5751', '#F29490', '#F9D1CF', '#FFFFFF', '#CCEBF3', '#88D0E3', '#43B6D3', '#009CC4'), order=(1, 2, 3, 4, 5, 6, 7, 8, 9)),
+    signif_qual=dict(colors=('#3fa535', '#f4c100', '#009cc4', '#f07d00'), order=(1, 2, 3, 4))
   )
 
 # Palette function
