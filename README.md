@@ -12,6 +12,37 @@ Install from GitHub using `pip` with:
 pip install git+https://github.com/nrennie/RSSpythemes.git#egg=RSSpythemes
 ```
 
+Then load the package (and `matplotlib`):
+
+```python
+import RSSpythemes as rss
+import matplotlib.pyplot as plt
+```
+## Examples
+
+Using a single colour from stored variables:
+
+```python
+# data for bar chart
+x = ['A', 'B', 'C']
+value = [1, 2, 3]
+# plot simple bar chart with blue bars
+plt.bar(x, value, color=rss.signif_blue)
+plt.show()
+```
+![](images/example_blue.png)
+
+Using multiple colours from a palette:
+
+```python
+# get RSS colours
+colors = rss.RSScols(name="signif_qual", n=3, palette_type="discrete")
+# plot simple bar chart with multiple coloured bars
+plt.bar(x, value, color=colors)
+plt.show()
+```
+![](images/example_multi.png)
+
 ## Contributor guidelines
 
 ### To make a suggestion or ask a question
