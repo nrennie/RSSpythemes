@@ -53,10 +53,10 @@ Please open up a discussion in the repository's [Discussions](https://github.com
 
 Please either:
 
-1.  Raise an issue in the repository's [Issues](https://github.com/nrennie/RSSthemes/issues) section, or
+1.  Raise an issue in the repository's [Issues](https://github.com/nrennie/RSSpythemes/issues) section, or
 2.  Fork this repository, edit the relevant file(s), and make a pull request against the `main` branch of this repository.
 
-### If you want to add a new feature or section to the R package:
+### If you want to add a new feature or section to the Python package:
 
 1.  Raise an issue in the repository's [Issues](https://github.com/nrennie/RSSpythemes/issues) section, tag it as an 'enhancement' and describe your proposed contribution.
 2.  Fork this repository and create a new branch named, e.g., `my-new-feature-or-section`.
