@@ -12,7 +12,7 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=[],
+        install_requires=["colour>=0.1.5", "matplotlib>=3.5.1"],
         keywords=['python'],
         classifiers= [
             "Programming Language :: Python :: 3",
