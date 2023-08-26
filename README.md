@@ -4,6 +4,14 @@ Python package for styling graphics for RSS publications. This package accompani
 
 This package, the data visualisation guidance site and its content are under development, and the authors welcome feedback and contributions.
 
+## Installation
+
+Install from GitHub using `pip` with:
+
+```python
+pip install git+https://github.com/nrennie/RSSpythemes.git#egg=RSSpythemes
+```
+
 ## Contributor guidelines
 
 ### To make a suggestion or ask a question
