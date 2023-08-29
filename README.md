@@ -8,7 +8,7 @@ This package, the data visualisation guidance site and its content are under dev
 
 Install from GitHub using `pip` with:
 
-```python
+```bash
 pip install git+https://github.com/nrennie/RSSpythemes.git#egg=RSSpythemes
 ```
 
